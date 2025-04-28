@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  background-color: #C3FF93;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+color: #FF70AB;
+text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input   {
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+   
+}
+
+input[type="text"] {
+    text-indent: 8px;
+    outline: 1px solid #FFDB5C;
+    background-color: #FFDB5C;
+    color: #49108B;
+}
+
+input[type="text"]:hover {
+  
+    outline: 2px solid #FFDB5C;
+}
+
+
+input[type="text"]:focus{
+  
+    outline: 2px solid #FFAF61;
+}
+
+input[type="submit"] {
+   background-color: #FFDB5C;
+   cursor: pointer;
+   outline: 1px solid #FFAF61;
+   color: #49108B;
+   font-size: 2rem;
+   
+}
+
+input[type="submit"]:hover {
+  
+    background-color: #FFAF61;
+}
+
+input[type="submit"]:disabled {
+    background-color: #FFC3A1;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+input[type="submit"]:focus{
+    
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: #FF70AB;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+text-decoration-style: wavy;
+}
+
+
